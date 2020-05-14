@@ -18,6 +18,7 @@ package com.imobile3.groovypayments;
 
 import android.app.Application;
 
+import com.facebook.stetho.Stetho;
 import com.imobile3.groovypayments.data.DatabaseHelper;
 import com.imobile3.groovypayments.logging.LogHelper;
 import com.imobile3.groovypayments.manager.ApiKeyManager;
@@ -35,6 +36,9 @@ public class MainApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        // Initialize Stetho debugging tool.
+        Stetho.initializeWithDefaults(this);
 
         sSingleton = this;
 

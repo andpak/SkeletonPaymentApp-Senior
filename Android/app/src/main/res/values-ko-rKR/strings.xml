@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">그루비 모바일 페이먼트즈</string>
+
+    <!-- Common -->
+    <string name="common_ok">확인</string>
+    <string name="common_cancel">취소</string>
+    <string name="common_back">뒤</string>
+    <string name="common_change">바꾸기</string>
+    <string name="common_order_entry">주문 입력</string>
+    <string name="common_management">관리</string>
+    <string name="common_time_tracking">시간 추적</string>
+    <string name="common_under_construction">공사중</string>
+    <string name="common_acknowledged">인정함</string>
+    <string name="common_order_history">주문 기록</string>
+    <string name="common_secret_functions">비밀 기능</string>
+    <string name="common_user_profile">사용자 프로필</string>
+    <string name="common_lorem_ipsum_description">역시 마찬가지로, 단순히 고통이라는 이유 때문에 고통 그 자체를
+        사랑하거나 추구하거나 소유하려는 자는 없다. 다만 노역과 고통이 아주 큰 즐거움을 선사하는 상황이 때로는 발생하기
+        때문에 고통을 찾는 사람이 있는 것이다. 간단한 예를 들자면, 모종의 이익을 얻을 수도 없는데 힘든 육체적 노력을 기꺼이
+        할 사람이 우리들 중에 과연 있겠는가? 하지만 귀찮은 일이 뒤따르지 않는 즐거움을 누리는 것을 선택한 사람, 혹은 아무런
+        즐거움도 생기지 않는 고통을 회피하는 사람을 누가 탓할 수 있겠는가?.</string>
+    <string name="reports">보고서</string>
+
+    <!-- Login -->
+    <string name="prompt_email">이메일</string>
+    <string name="prompt_password">비밀번호</string>
+    <string name="action_sign_in">로그인 아님 가입</string>
+    <string name="skip_login">로그인 건너띠기</string>
+    <string name="action_sign_in_short">로그인</string>
+    <string name="welcome">"환영합니다! "</string>
+    <string name="invalid_username">유효한 사용자 이름이 아닙니다</string>
+    <string name="invalid_password">비밀번호는 5자 이상이어야합니다</string>
+    <string name="login_failed">"로그인 실패"</string>
+
+    <!-- Main Dashboard -->
+    <string name="order_entry_description">스토어 재고를 찾아보거나 고객에게 제품을 판매하십시오.</string>
+    <string name="user_profile_description">현재 사용자 설정을 보거나 편집하십시오.</string>
+    <string name="management_description">판매 시점 설정을 관리하십시오.</string>
+    <string name="time_tracking_description">출근/퇴근 기록 및 최근 활동 보기.</string>
+    <string name="order_history_description">이 판매 시점에 이행된 과거 주문을 살펴보십시오.</string>
+    <string name="secret_functions_description">데모 데이터베이스 재설정과 같은 특수 기능을 수행할 수 있는 초밀도 영역.</string>
+    <string name="placeholder_description">임시 자리 표시자.</string>
+    <string name="under_construction_alert_message">신청서의 이 지역은 아직 공사 중이다. 마음껏 스킬을 시연하고 구축하십시오.</string>
+    <string name="main_dashboard_subtitle">어디로 가고 싶습니까?</string>
+    <string name="reports_description">일별 보고서를 기반으로 제품 인기 차트 보기.</string>
+
+    <!-- User Profile -->
+    <string name="user_profile_subtitle_format">환영합니다 %1$s.</string>
+    <string name="user_profile_username">사용자 이름:</string>
+    <string name="user_profile_email">이메일:</string>
+    <string name="user_profile_hours_week">시간 (주):</string>
+
+    <!-- Secret Functions -->
+    <string name="secret_functions_subtitle">일급 비밀 지역.</string>
+    <string name="secret_functions_reset_database">데이터베이스 초기화</string>
+    <string name="secret_functions_erase_cart">카트 지우</string>
+    <string name="secret_functions_alert_title">실행 된 기능</string>
+    <string name="secret_functions_alert_button">복사 하기.</string>
+    <string name="secret_functions_alert_reset_database">데모 데이터베이스가 성공적으로 재설정되었습니다
+        (모든 원본 데모 데이터가 복원되었습니다). 이 메시지는 스스로 파괴됩니다.</string>
+    <string name="secret_functions_alert_erase_cart">현재 장바구니 인스턴스가 지워졌습니다.
+        거의 마치 카트가 존재하지 않은 것처럼&#8230;</string>
+
+    <!-- Order Entry -->
+    <string name="order_entry_subtitle">주문에 제품 추가.</string>
+    <string name="order_entry_subtitle_checkout">오른쪽 상단 아이콘을 클릭하여 결제.</string>
+
+    <!-- Order History -->
+    <string name="order_history_subtitle">아래 나열된 최근 주문 수입니다.</string>
+    <string name="order_history_alert_title">구현되지 않음</string>
+    <string name="order_history_alert_button">그래.</string>
+    <string name="order_history_alert_message">주문 내역 기능이 구현되지 않음
+목록 항목 클릭을 중지하십시오.</string>
+    <string name="order_history_alert_warning_title">하지마</string>
+    <string name="order_history_alert_warning_button">어쨌든.</string>
+    <string name="order_history_alert_warning_message">목록 항목을 클릭하지 말라는 경고를 받았다.
+관리자에게 통지를 받았다.</string>
+
+    <!--Daily Report-->
+    <string name="daily_report_subtitle">일일 보고</string>
+    <string name="daily_report_product_popularity">제품 인기</string>
+    <string name="daily_report_progress_message">차트 로딩 중</string>
+
+    <!-- Checkout -->
+    <string name="checkout_subtitle">어떻게 지불 하시겠어요?</string>
+    <string name="checkout_with_cash">현금</string>
+    <string name="checkout_with_credit">신용</string>
+    <string name="checkout_pay_cash">결제 (현금)</string>
+    <string name="checkout_pay_credit">결제(신용)</string>
+    <string name="checkout_complete_title_message">축하합니다! 고객님의 지불은
+        승인되었습니다!</string>
+    <string name="checkout_complete_subtitle">주문 완료!</string>
+    <string name="checkout_complete_customer_message">우리와 함께 쇼핑 해 주셔서 감사합니다.
+        아래 버튼을 클릭하여 주문 입력 화면으로 돌아갑니다.</string>
+    <string name="checkout_complete_groovy">그루비!</string>
+
+    <!-- Payment Types -->
+    <string name="credit">신용</string>
+    <string name="cash">현금</string>
+
+    <!-- Keypad -->
+    <string name="keypad_1">1</string>
+    <string name="keypad_2">2</string>
+    <string name="keypad_3">3</string>
+    <string name="keypad_4">4</string>
+    <string name="keypad_5">5</string>
+    <string name="keypad_6">6</string>
+    <string name="keypad_7">7</string>
+    <string name="keypad_8">8</string>
+    <string name="keypad_9">9</string>
+    <string name="keypad_00">00</string>
+    <string name="keypad_0">0</string>
+
+    <!-- Progress / Tasks -->
+    <string-array name="progress_dialog_messages">
+        <item>계산 중&#8230;</item>
+        <item>데이터 편가 중&#8230;</item>
+        <item>분석 중&#8230;</item>
+        <item>알고리즘 실행 중&#8230;</item>
+        <item>은행과 확인 중&#8230;</item>
+        <item>기계 학습 사용&#8230;</item>
+        <item>콩을 세는 중&#8230;</item>
+    </string-array>
+</resources>
